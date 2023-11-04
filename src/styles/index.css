@@ -1,12 +1,15 @@
 .container {
-    background-color: whitesmoke;
+    background-color: lightcoral;
 }
 
 .title {
-    color: black;
+    color: rgb(116, 21, 21);
     text-align: center;
     margin-top: 80px;
     margin-bottom: 20px;
+    font-family: 'Lucida Sans';
+    background-color: lightcoral;
+    text-wrap: 200px;
 }
 
 input {
@@ -15,6 +18,8 @@ input {
     width: 50%;
     margin: auto;
     padding: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: lightcoral;
 }
 
 ul {
@@ -25,7 +30,8 @@ ul {
 .items {
     margin-top: 20px;
     text-align: center;
-    color: rgb(36, 73, 60);
+    color: lightcoral;
+    font-family: 'lucida Sans';
 }
 
 .li-c {
@@ -39,14 +45,10 @@ button {
     transition: opacity 0.3s ease;
     background-color: #fff;
     border: none;
-    color: darkslateblue;
+    color: rgb(146, 26, 26);
 }
 
 .li-c:hover button {
     opacity: 1;
-    background-color: #EBFFE6;
-}
-
-.li-c:hover {
-    background-color: #EBFFE6;
+    background-color: lightcoral;
 }
