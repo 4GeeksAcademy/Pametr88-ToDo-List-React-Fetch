@@ -1,12 +1,52 @@
+.container {
+    background-color: whitesmoke;
+}
 
-/* 
+.title {
+    color: black;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+input {
+    width: 100%;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding: 5px;
+}
 
-*/
+ul {
+    width: 40%;
+    margin: auto;
+}
+
+.items {
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(36, 73, 60);
+}
+
+.li-c {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+button {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    background-color: #fff;
+    border: none;
+    color: darkslateblue;
+}
+
+.li-c:hover button {
+    opacity: 1;
+    background-color: #EBFFE6;
+}
+
+.li-c:hover {
+    background-color: #EBFFE6;
+}
